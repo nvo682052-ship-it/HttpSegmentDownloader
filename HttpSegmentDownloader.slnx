@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/benchmarks/" />
+  <Folder Name="/docs/" />
+  <Folder Name="/src/">
+    <Project Path="Downloader.App/Downloader.App.csproj" />
+    <Project Path="Downloader.Core/Downloader.Core.csproj" />
+    <Project Path="Downloader.IO/Downloader.IO.csproj" />
+    <Project Path="Downloader.Monitoring/Downloader.Monitoring.csproj" />
+    <Project Path="Downloader.Network/Downloader.Network.csproj" />
+    <Project Path="Downloader.Threading/Downloader.Threading.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>
