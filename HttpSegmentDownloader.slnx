@@ -1,6 +1,7 @@
 <Solution>
-  <Folder Name="/benchmarks/" />
-  <Folder Name="/docs/" />
+  <Folder Name="/benchmarks/">
+    <Project Path="Downloader.Benchmarks/Downloader.Benchmarks.csproj" />
+  </Folder>
   <Folder Name="/src/">
     <Project Path="Downloader.App/Downloader.App.csproj" />
     <Project Path="Downloader.Core/Downloader.Core.csproj" />
@@ -9,5 +10,10 @@
     <Project Path="Downloader.Network/Downloader.Network.csproj" />
     <Project Path="Downloader.Threading/Downloader.Threading.csproj" />
   </Folder>
-  <Folder Name="/tests/" />
+  <Folder Name="/tests/">
+    <Project Path="Downloader.Core.Tests/Downloader.Core.Tests.csproj" />
+    <Project Path="Downloader.IO.Tests/Downloader.IO.Tests.csproj" />
+    <Project Path="Downloader.Network.Tests/Downloader.Network.Tests.csproj" />
+    <Project Path="Downloader.Threading.Tests/Downloader.Threading.Tests.csproj" />
+  </Folder>
 </Solution>
