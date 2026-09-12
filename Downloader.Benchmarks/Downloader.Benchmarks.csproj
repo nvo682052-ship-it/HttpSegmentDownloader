@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Downloader.IO\Downloader.IO.csproj" />
+    <ProjectReference Include="..\Downloader.Threading\Downloader.Threading.csproj" />
+    <ProjectReference Include="..\Downloader.Core\Downloader.Core.csproj" />
+  </ItemGroup>
+
 </Project>
